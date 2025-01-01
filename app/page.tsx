@@ -1,6 +1,7 @@
 import BackgroundSpiral from "@/components/backround-spiral";
 import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
+import LogoTicker from "@/components/LogoTicker";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <BackgroundSpiral className="-right-[40%] md:-right-[10%] -top-[10%]" />
         <main className="mt-[7rem] md:mt-[9.75rem]">
           <Hero />
+          <LogoTicker />
         </main>
     </div>
   );
