@@ -34,10 +34,10 @@ const TrustedBy = () => {
     const [hoveredProfileId, setHoveredProfileId] = useState(1)
 
   return (
-    <section className="max-w-[90rem] mx-auto px-4 py-[5.18rem] relative">
+    <section className="max-w-[75rem] mx-auto px-4 py-[5.18rem] relative">
         <div className="md:grid grid-cols-12 gap-14">
             <div className="col-span-full lg:col-span-4">
-                <h2 className="relative font-semibold text-3xl md:text-5xl leading-[1.3] md:text-center lg:text-left">
+                <h2 className="relative text-3xl md:text-5xl leading-[1.3] md:text-center lg:text-left">
                     <span>Trusted by <br /> thousands of students and immigrants around the world</span>
                     <div className="h-2 lg:h-2.5 w-[117px] bg-primary absolute -right-1 top-4 md:hidden lg:block" />
                 </h2>
@@ -53,7 +53,7 @@ const TrustedBy = () => {
                                 onMouseEnter={() => setHoveredProfileId(id)}
                                 onMouseLeave={() => setHoveredProfileId(1)}
                                 key={id} 
-                                className={twMerge(" rounded-xl md:rounded-2xl overflow-hidden relative after:absolute after:left-0 after:bottom-0 after:w-full after:h-[174px] after:bg-gradient-to-t after:from-[rgba(30,30,30,0.80)] after:to-[rgba(30,30,30,0.00) 77.17%)] transition-all duration-700", isActive ? "w-full md:w-[50%] h-[50%] md:h-full" : "w-full md:w-[25%] h-[25%] md:h-full")}>
+                                className={twMerge("z-10 rounded-xl md:rounded-2xl overflow-hidden relative after:absolute after:left-0 after:bottom-0 after:w-full after:h-[174px] after:bg-gradient-to-t after:from-[rgba(30,30,30,0.80)] after:to-[rgba(30,30,30,0.00) 77.17%)] transition-all duration-700", isActive ? "w-full md:w-[50%] h-[50%] md:h-full" : "w-full md:w-[25%] h-[25%] md:h-full")}>
                                 <Image
                                     src={image}
                                     alt={name}

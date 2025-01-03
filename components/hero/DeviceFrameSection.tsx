@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const DeviceFrameSection = () => {
   return (
-    <section className='mt-10 lg:mt-0 relative h-[50vh] md:h-[70vh] max-h-[30rem] [mask-image:linear-gradient(to_top,transparent,black_40%)]'>
+    <section className='z-10 mt-10 lg:mt-0 relative h-[50vh] md:h-[70vh] max-h-[30rem] [mask-image:linear-gradient(to_top,transparent,black_40%)]'>
         <div className="absolute top-0 md:left-1/2 md:-translate-x-1/2 z-[5]">
             <Image
                 src="/device.png"

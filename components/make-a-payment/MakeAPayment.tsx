@@ -4,7 +4,7 @@ import CustomButton from "../custom-button"
 const MakeAPayment = () => {
   return (
     <section className="bg-white">
-        <div className="relative w-full max-w-[90rem] mx-auto px-4 flex flex-col lg:flex-row md:text-center lg:text-left items-center justify-between py-[4.8rem] max-lg:gap-10">
+        <div className="relative w-full max-w-[75rem] mx-auto px-4 flex flex-col lg:flex-row md:text-center lg:text-left items-center justify-between py-[4.8rem] max-lg:gap-10">
             <div className="w-full space-y-6">
                 <h2 className="text-3xl md:text-5xl font-semibold">
                     Super fast tuition and school fees 
@@ -24,7 +24,7 @@ const MakeAPayment = () => {
                 />
             </div>
         </div>
-        <div className="relative w-full max-w-[90rem] mx-auto px-4 flex flex-col lg:flex-row md:text-center lg:text-left items-center justify-between py-[4.8rem] max-lg:gap-10">
+        <div className="relative w-full max-w-[75rem] mx-auto px-4 flex flex-col lg:flex-row md:text-center lg:text-left items-center justify-between py-[4.8rem] max-lg:gap-10">
             <div className="w-full flex md:justify-center lg:justify-start">
                 <Image
                     src="/unilag.png"

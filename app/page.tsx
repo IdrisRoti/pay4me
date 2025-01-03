@@ -5,6 +5,7 @@ import Hero from "@/components/hero/Hero";
 import LogoTicker from "@/components/LogoTicker";
 import MakeAPayment from "@/components/make-a-payment/MakeAPayment";
 import TrustedBy from "@/components/trusted-by/TrustedBy";
+import WhyWeBuilt from "@/components/why-we-built/WhyWeBuilt";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <MakeAPayment />
           <TrustedBy />
           <Faq />
+          <WhyWeBuilt />
         </main>
     </div>
   );
