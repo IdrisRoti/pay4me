@@ -13,7 +13,7 @@ const CustomButton = ({ children, variant= "primary", className, icon=TiArrowRig
   const Icon = icon;
   return (
     <button className={`
-                min-w-[15rem] h-12 rounded-full flex items-center justify-center gap-4 text-lg font-bold text-black hover:opacity-80 transition group outline-none border-none
+                min-w-[15rem] h-12 rounded-full flex items-center justify-center gap-4 text-lg font-bold text-black hover:opacity-80 transition group outline-none border border-primary
                 ${ variant === "primary" ? "bg-primary" : "bg-white" }
                 ${ className }
 

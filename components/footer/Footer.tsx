@@ -104,7 +104,7 @@ const Footer = () => {
                 }
             </div>
         </div>
-        <div className="h-[350px] w-full max-w-5xl mx-auto text-[110px] md:text-[200px] lg:text-[259px] text-primary tracking-[-17.34px] -mb-[65%] md:-mb-[25%] lg:-mb-[10%] opacity-60">
+        <div className="h-[350px] w-full max-w-5xl mx-auto text-[110px] md:text-[200px] lg:text-[259px] text-primary tracking-[-17.34px] -mb-[65%] md:-mb-[25%] lg:-mb-[10%] opacity-40">
             Pay4me
         </div>
     </footer>

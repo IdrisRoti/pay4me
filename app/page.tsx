@@ -8,6 +8,7 @@ import TrustedBy from "@/components/trusted-by/TrustedBy";
 import WhyWeBuilt from "@/components/why-we-built/WhyWeBuilt";
 import DownloadApp from "../components/download-app/DownloadApp";
 import Footer from "@/components/footer/Footer";
+import Blogs from "@/components/blog/Blogs";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           <TrustedBy />
           <Faq />
           <WhyWeBuilt />
+          <Blogs />
           <DownloadApp />
         </main>
         <Footer />
