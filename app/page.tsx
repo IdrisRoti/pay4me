@@ -1,4 +1,5 @@
 import BackgroundSpiral from "@/components/backround-spiral";
+import Faq from "@/components/faq/Faq";
 import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
 import LogoTicker from "@/components/LogoTicker";
@@ -15,6 +16,7 @@ export default function Home() {
           <LogoTicker />
           <MakeAPayment />
           <TrustedBy />
+          <Faq />
         </main>
     </div>
   );

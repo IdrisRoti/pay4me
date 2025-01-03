@@ -11,8 +11,11 @@
   :root {
     --background: #f9faff;
     --primary: #80d727;
+    --text-dark: #141414;
     --text-extralight: #9a9a9a;
     --bg-gray: #ededed;
+    --bg-light-gray: #f6f6f6;
+    --dark-gray: #595959;
   }
 }
 
