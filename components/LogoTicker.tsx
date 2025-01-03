@@ -77,7 +77,7 @@ const logoUrls2 = [
 
 const LogoTicker = () => {
   return (
-    <section className="overflow-hidden mt-20 mb-[9.75rem] flex flex-col gap-12 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
+    <section className="overflow-hidden mt-20 mb-[9.75rem] max-w-[90rem] px-4 mx-auto flex flex-col gap-12 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
         <CustomInfiniteCarousel>
             {
                 logoUrls1.map(({url, name, width, height}) => (
