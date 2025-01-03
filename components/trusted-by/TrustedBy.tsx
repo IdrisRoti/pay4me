@@ -62,7 +62,7 @@ const TrustedBy = () => {
                                 />
                                 <div className="px-5 absolute bottom-0 w-full text-white py-4 z-10">
                                     <h3 className="font-semibold text-2xl md:text-3xl">{name}</h3>
-                                    <CustomStarRating readonly rating={rating} className="hidden md:block" />
+                                    <CustomStarRating readonly rating={rating} className="hidden md:flex" />
                                     <CustomStarRating readonly rating={rating} small className="md:hidden" />
                                 </div>
                                 <motion.button

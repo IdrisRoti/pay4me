@@ -6,6 +6,8 @@ import LogoTicker from "@/components/LogoTicker";
 import MakeAPayment from "@/components/make-a-payment/MakeAPayment";
 import TrustedBy from "@/components/trusted-by/TrustedBy";
 import WhyWeBuilt from "@/components/why-we-built/WhyWeBuilt";
+import DownloadApp from "../components/download-app/DownloadApp";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -19,7 +21,9 @@ export default function Home() {
           <TrustedBy />
           <Faq />
           <WhyWeBuilt />
+          <DownloadApp />
         </main>
+        <Footer />
     </div>
   );
 }
