@@ -9,7 +9,7 @@ const DeviceFrameSection = () => {
         <motion.div 
             initial={{opacity: 0}} 
             whileInView={{opacity: 1}}
-            transition={{duration: .5, delay: .5, ease: "easeInOut"}}  
+            transition={{duration: .5, ease: "easeInOut"}}  
             viewport={{
                 once: true,
             }}
@@ -19,7 +19,7 @@ const DeviceFrameSection = () => {
                 alt="Mobile device showing a welcome screen"
                 width={322}
                 height={659}
-                className='object-cover h-[559px] md:h-[659px] w-[422px] lg:w-[322px]'
+                className='object-cover h-[659px] w-[422px] lg:w-[322px]'
             />
         </motion.div>
         <motion.div
@@ -42,7 +42,7 @@ const DeviceFrameSection = () => {
         <motion.div 
             initial={{opacity: 0, scale: .7}} 
             whileInView={{opacity: 1, scale: 1}}
-            transition={{duration: .5, delay: .5, ease: "easeInOut"}}  
+            transition={{duration: .5, ease: "easeInOut"}}  
             viewport={{
                 once: true,
             }}
@@ -58,7 +58,7 @@ const DeviceFrameSection = () => {
         <motion.div
              initial={{opacity: 0, scale: .7}} 
              whileInView={{opacity: 1, scale: 1}}
-             transition={{duration: .5, delay: .8, ease: "easeInOut"}}  
+             transition={{duration: .5, ease: "easeInOut"}}  
              viewport={{
                  once: true,
              }} 
@@ -75,7 +75,7 @@ const DeviceFrameSection = () => {
         <motion.div
             initial={{opacity: 0, y: 50}} 
             whileInView={{opacity: 1, y: 0}}
-            transition={{duration: .5, delay: .5, ease: "easeInOut"}}  
+            transition={{duration: .5, ease: "easeInOut"}}  
             viewport={{
                 once: true,
                 margin: "-50px"
@@ -93,7 +93,7 @@ const DeviceFrameSection = () => {
         <motion.div
             initial={{opacity: 0, y: 50}} 
             whileInView={{opacity: 1, y: 0}}
-            transition={{duration: .5, delay: .8, ease: "easeInOut"}}  
+            transition={{duration: .5, ease: "easeInOut"}}  
             viewport={{
                 once: true,
                 margin: "-50px"
