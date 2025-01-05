@@ -5,6 +5,7 @@ import { BiPlus } from "react-icons/bi"
 import { twMerge } from "tailwind-merge"
 import BackgroundSpiral from "../backround-spiral"
 import { useTextAnimation } from "@/hooks/useTextAnimation"
+import { motion } from "motion/react"
 
 const faqs = [
     {
@@ -33,7 +34,7 @@ const faqs = [
 const Faq = () => {
     const [selectedAccordionId, setSelectedAccordionId] = useState<number | null>(null)
 
-    const {scope} = useTextAnimation()
+    const {scope} = useTextAnimation();
 
   return (
     <section className="py-[7.125rem] bg-white">
@@ -65,7 +66,11 @@ const Faq = () => {
                                     <h3 className="text-textDark ">{question}</h3>
                                     <span><BiPlus className="text-[#141414]" /></span>
                                 </div>
-                                <p className={twMerge("font-light text-black/80 overflow-hidden transition-all duration-700", isSelected ? "h-auto pt-6" : "h-0 pt-0")}>{answer}</p>
+                                <motion.div
+                                    initial={{height: 0}} animate={isSelected ? {height: "auto"}: {height: 0}}
+                                    className={twMerge("overflow-hidden")}>
+                                    <p className="font-light text-black/80 pt-6">{answer}</p>
+                                </motion.div>
                             </article>
                         )
                     })
